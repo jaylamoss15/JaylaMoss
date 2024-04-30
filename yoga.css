@@ -1,0 +1,125 @@
+*{box-sizing: border-box}
+body{background-color: #3F2860; 
+    color: #40407A;
+    font-family: Arial, Verdana, sans-serif;
+    margin: 0;}
+
+ #wrapper { background-color: #f5f5f5;
+            margin: auto;
+            width: 80%;
+            padding: 2em;
+            }
+
+header {background-color: #40407A;
+        background-image: url(sunrise.jpg);
+        background-size: 100%;
+        color: white;
+        font-size: 120%;
+        margin-top: 50px;
+        min-height: 200px;
+     }
+        header a {text-decoration: none;}
+        header a:link { color: #FFF;} 
+        header a:visited { color: #FFF;}
+        header a:hover { color: #EDF5F5;}
+
+.home { height: 50vh;
+        padding-top: 5em;
+        padding-left: 8em;
+        }
+
+.content {  height: 30vh;
+            padding-top: 1em;
+            padding-left: 8em;}
+h1      
+ { 
+}
+
+nav { 
+    width: 100%;
+    padding-top: 0.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: right;
+    background-color: white;
+    margin: 0;
+    padding-right: 0;
+    z-index: 9999;
+    }
+
+
+nav a    { text-decoration: none; 
+            display: block;
+            }   
+
+nav a:link { color: #3F2860; } 
+nav a:visited { color: #497777; }
+nav a:hover { color: #A26100; }
+
+nav ul {display: flex;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        list-style: none;
+        margin: 0;
+        font-size: 1.2em;
+        }
+
+nav li {width: 7em;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 1em;
+        padding-left: 1em;
+        display: inline;
+        }
+
+main {  
+       }
+
+.floatleft {}
+
+#hero {
+        }
+
+.clear {}
+
+.onehalf {  }
+
+.onethird { }
+
+#mathero {  background-image: url(yogamat.jpg);
+            background-repeat: no-repeat;
+            height: 300px;
+            background-size: cover;
+            display: block; 
+            padding-bottom: 1em;
+            }
+
+#loungehero {   background-image: url(yogalounge.jpg);
+                background-repeat: no-repeat;
+                height: 300px;
+                background-size: cover;
+                display: block;
+                padding-bottom: 1em;
+                }
+
+section {   padding-left: 2em;
+            padding-right: 2em;
+            }
+
+#flow { display: flex;
+        flex-direction: row;
+        }
+
+footer   { 
+             font-size: .60em;
+             font-style: italic; 
+             text-align: center;
+            }
+#mobile {   display: none;
+            }
+
+#desktop {display: inline;}
+
+.studio  {font-style: italic;}
+        
