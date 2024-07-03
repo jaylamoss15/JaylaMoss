@@ -1,0 +1,39 @@
+/* add your CSS here */
+
+
+.resize-image {
+    width: 300px;
+    height: auto;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.bold-text {
+    font-style: bold;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+.bordered-paragraph {
+    box-sizing: border-box;
+    border: 2px solid #ccc; /* Border style */
+    padding: 0%;
+     /* Padding inside the border */
+}
+
+.text-container {
+    max-width: 300px;
+    font-size: 16px; /* Adjust relative to viewport width */
+}
+
+.box-with-shadow {
+    max-width: 310px;
+    padding: 0;
+    background-color: #fff; /* Background color */
+    box-shadow: 0 4px 8px 8px rgba(128, 128, 128, 0.5), 0 0 10px rgba(0, 0, 0, 0.1);/* Box shadow properties */
+}
